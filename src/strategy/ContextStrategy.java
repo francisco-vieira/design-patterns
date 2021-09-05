@@ -17,7 +17,7 @@ public class ContextStrategy {
 
     public void setStrategy(InterfaceStrategy strategy, Double value) {
         this.strategy = strategy;
-        this.value = this.strategy.AlgoritmoInterface(value);
+        this.value = value + this.strategy.AlgoritmoInterface(value);
     }
 
     public String resultado() {
