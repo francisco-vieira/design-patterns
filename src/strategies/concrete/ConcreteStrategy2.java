@@ -1,6 +1,6 @@
-package strategy.concrete;
+package strategies.concrete;
 
-import strategy.behaviors.InterfaceStrategy;
+import strategies.behaviors.InterfaceStrategy;
 
 /**
  * As classes concretas herdam a InterfaceStrategy tornando se uma classe de strategy

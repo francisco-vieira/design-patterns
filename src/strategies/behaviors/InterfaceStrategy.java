@@ -1,4 +1,4 @@
-package strategy.behaviors;
+package strategies.behaviors;
 
 /**
  * A interface strategy passa a ser implementada pela classe de contexto.
