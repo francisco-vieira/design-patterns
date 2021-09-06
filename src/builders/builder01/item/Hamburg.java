@@ -8,7 +8,6 @@ public class Hamburg extends Comida {
         return "Hamburg";
     }
 
-
     @Override
     public Double preco() {
         return 10.60;

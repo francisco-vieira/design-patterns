@@ -23,9 +23,9 @@ public class Refeicao {
     public void showItems() {
         items.forEach(c -> {
             Integer id = items.indexOf(c) + 1;
-            System.out.printf("Item %d:".concat(c.nome()).concat("\n"), id);
-            System.out.println("Embalagem:".concat(c.embalagem().pacote()));
-            System.out.println("Preço:".concat(c.preco().toString()));
+            System.out.printf("Item %d: ".concat(c.nome()), id);
+            System.out.print(", Embalagem: ".concat(c.embalagem().pacote()));
+            System.out.println(", Preço: ".concat(c.preco().toString()));
         });
     }
 

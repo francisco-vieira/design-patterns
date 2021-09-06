@@ -5,5 +5,7 @@ public interface Item {
 
     Empacotamento embalagem();
 
+    void embalagem(Empacotamento empacotamento);
+
     Double preco();
 }
