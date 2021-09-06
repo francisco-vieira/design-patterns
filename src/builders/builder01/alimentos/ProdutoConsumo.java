@@ -17,4 +17,7 @@ public abstract class ProdutoConsumo implements Item {
         this.empacotamento = empacotamento;
     }
 
+    @Override
+    public abstract Double preco();
+
 }

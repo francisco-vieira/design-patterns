@@ -34,6 +34,10 @@ public class RefeicaoBuilder {
         bebida.embalagem(new Garrafa());
         refeicao.setItem(bebida);
 
+        bebida = new Refrigerante();
+        bebida.embalagem(new Garrafa());
+        refeicao.setItem(bebida);
+
         comida = new Sorverte();
         comida.embalagem(new Balde());
         refeicao.setItem(comida);
